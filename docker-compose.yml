@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  api:
+    build: '.'
+    container_name: 'teste-mepoupe'
+    restart: always
+    ports:
+      - '3333:3333'
